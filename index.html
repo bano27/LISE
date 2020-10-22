@@ -150,7 +150,7 @@
               </div>
             </div>
             <div class="card-body">
-              <h3 class="card-title">PENCIL DRAWINGS</h3>
+              <h3 class="card-title" style="background-color: black; color: burlywood;" >PENCIL DRAWINGS</h3>
             </div>
           </div>
         </div>
@@ -235,9 +235,14 @@
       </div>
     </section>
     <section class="section2">
+      <div id="user">
       <div id="container-fluid">
         <h2 id="pricing">Pricing & chart</h2>
+        <p class="pricing-p">Through Leading In Skilled Experts (LISE), This platform offers carefully curated work on consignment by artists from the region. If you see work that you are interested in acquiring,
+          please contact us on art@thelise.co.ke. We can also source work for you from your favorite artist.
+          </p>
         <h2 style="text-align:center">PAINTERS</h2>
+        <div class="art">
         <div class="row">
           <div class="col-md-4">
             <div class="card-art1">
@@ -260,7 +265,7 @@
           </div>
           <div class="col-md-4">
             <div class="card-art3">
-              <img src="Images/art3.jpeg" alt="..." style="width:100%">
+              <img src="Images/art3.jpeg" alt="..." style="width:100%" id="local-heros">
               <small>"LOCAL HEROES” / grass stained on paper / 38cm × 26cm / Ksh 60,000 / CODE AN:2016:02</small>
               <p class="price">$600</p>
               <p>This is available in framed and digital copies all in your prefered sizes.</p>
@@ -295,9 +300,12 @@
             </div>
           </div>
         </div>
+        </div>
+        
 
 
         <h2 style="text-align:center">PENCIL ARTS</h2>
+        <div class="pencil">
         <div class="row">
           <div class="col-md-4">
             <div class="card-pencil1">
@@ -361,9 +369,11 @@
             </div>
           </div>
         </div>
+        </div>
 
 
         <h2 style="text-align:center">SCULPTORS</h2>
+        <div class="sculptor">
         <div class="row">
           <div class="col-md-4">
             <div class="card-sculptor1">
@@ -426,9 +436,11 @@
             </div>
           </div>
         </div>
+        </div>
 
 
         <h2 style="text-align:center">TATTOOS</h2>
+        <div class="tatoo">
         <div class="row">
           <div class="col-md-4">
             <div class="card-tatoo1">
@@ -486,21 +498,18 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="submit">
+  <p><button id="submit" style="text-align: center;" onclick="myfunction()">submit</button></p>
+</div>
     </section>
+
 
     <div class="row">
     <div class="col-md-12 hidden" id="order">
-      <h3 id="header">Your Pizza placed order(s)</h3>
+      <h3 id="header">Your order(s) is:</h3>
       <table class="table table-striped table-dark">
-         <thead>
-            <tr>
-               <th scope="col"></th>
-               <th scope="col">pizzaToppings</th>
-               <th scope="col">crustWeight</th>
-               <th scope="col">pizzaSize</th>
-               <th scope="col"><b>TOTAL</b></th>
-            </tr>
-         </thead>
          <tbody id="bill-summary"></tbody>
    </div>
    </table>
