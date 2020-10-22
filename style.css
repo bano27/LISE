@@ -1,3 +1,17 @@
+
+color: white;
+}
+
+#subscribe-btn {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+/* Social media */
+.social-media {
+    padding-top: 35px;
+=======
 #navbar{background-color: #5d4954;
 color: white;}
 h1{letter-spacing: 5px;
@@ -72,3 +86,4 @@ font-size: 40px;
 }
 =======
 .card-title{color: black;}
+
