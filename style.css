@@ -4,11 +4,16 @@ h1{letter-spacing: 5px;
 font-size: 75px;
 font-family: cursive;}
 h3{font-size: 24px;}
-.section1{background-color: #00ffff;}
+.section1{background-image: url(Images/bg4.jpg);
+color: white;
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;}
+#platform p{font-size: 25px;}
 h4{font-size: 15px;}
 #body1{background-color: #ffff00;}
 h2{text-align: center;
-font-size: 40px;}
+font-size: 40px;
 .section2{
            background-color: lightblue;
 }
@@ -65,3 +70,5 @@ font-size: 40px;}
   padding-left: 9%;
   padding-right: 9%;  
 }
+=======
+.card-title{color: black;}
